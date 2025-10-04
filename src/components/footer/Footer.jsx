@@ -30,7 +30,7 @@ const Footer = () => {
       {/* copyright  */}
 
       <p className="text-sm text-gray-400 mt-4 text-center">
-        © 2025 Shivam Mishra. All rights reserved.
+        © {new Date().getFullYear()} Shivam Mishra. All rights reserved.
       </p>
     </footer>
   );

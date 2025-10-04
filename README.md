@@ -1,6 +1,38 @@
-# React + Vite
+## Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This portfolio project is built with:
+
+- **React**: A JavaScript library for building user interfaces
+- **Vite**: A build tool that aims to provide a faster and leaner development experience
+- **Hot Module Replacement (HMR)**: Instantly see changes without reloading the page
+- **ESLint Configuration**: Pre-configured linting for code quality
+
+## Getting Started
+
+1. Clone this repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Build for production:
+   ```bash
+   npm run build
+   ```
+
+## Project Structure
+
+```
+/src
+  /components     # Reusable React components
+  /assets         # Static assets like images and fonts
+  /styles         # CSS and style-related files
+  App.jsx         # Main application component
+  main.jsx        # Entry point
+```
 
 Currently, two official plugins are available:
 

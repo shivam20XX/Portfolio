@@ -28,7 +28,7 @@ const Footer = () => {
       </div>
 
       {/* copyright  */}
-
+        
       <p className="text-sm text-gray-400 mt-4 text-center">
         © {new Date().getFullYear()} Shivam Mishra. All rights reserved.
       </p>

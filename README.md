@@ -1,12 +1,3 @@
-## Features
-
-This portfolio project is built with:
-
-- **React**: A JavaScript library for building user interfaces
-- **Vite**: A build tool that aims to provide a faster and leaner development experience
-- **Hot Module Replacement (HMR)**: Instantly see changes without reloading the page
-- **ESLint Configuration**: Pre-configured linting for code quality
-
 ## Getting Started
 
 1. Clone this repository

@@ -15,9 +15,9 @@ function BlurBlob({ position, size }) {
       }}
     >
       <div
-        className="w-full h-full bg-pink-500 rounded-full opacity-30 blur-3xl"
+        className="w-full h-full bg-pink-500 rounded-full opacity-30 blur-3xl animate-spin"
         style={{
-          animation: "spin 7s linear infinite",
+          animation: "spin 10s linear infinite",
         }}
       ></div>
     </div>

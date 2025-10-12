@@ -14,11 +14,9 @@ function ProgressBar() {
       setScrollProgress(Math.min(Math.max(progress, 0), 100));
     };
 
-
     const throttledScroll = () => {
       requestAnimationFrame(handleScroll);
     };
-
     window.addEventListener("scroll", throttledScroll);
     document.addEventListener("scroll", throttledScroll);
 

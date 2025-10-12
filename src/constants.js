@@ -82,7 +82,7 @@ export const projects = [
     description:
       "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
     image: Project1,
-    tags: ["HTML", "CSS", "JavaScript", "React JS",],
+    tags: ["HTML", "CSS", "JavaScript", "React JS"],
     github: "https://www.google.com",
     live: "https://www.google.com",
   },
@@ -92,7 +92,7 @@ export const projects = [
     description:
       "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
     image: Project1,
-    tags: ["HTML", "CSS", "JavaScript", "React JS",],
+    tags: ["HTML", "CSS", "JavaScript", "React JS"],
     github: "https://www.google.com",
     live: "https://www.google.com",
   },

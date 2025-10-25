@@ -58,7 +58,7 @@ const Navbar = () => {
           {menuItems.map((item) => (
             <li
               key={item.id}
-              className={`hover:text-pink-500 cursor-pointer ${
+              className={`hover:cursor-pointer hover:text-pink-500 cursor-pointer ${
                 activeSection === item.id ? "text-pink-500" : ""
               }`}
             >

@@ -12,7 +12,7 @@ const Footer = () => {
           },
           {
             icon: <FaGithub />,
-            link: "https://www.linkedin.com/in/shivam20XX/",
+            link: "https://github.com/shivam20XX",
           },
         ].map((item, index) => (
           <a

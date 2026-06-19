@@ -54,11 +54,11 @@ const Navbar = () => {
         </div>
 
         {/* Pc menus */}
-        <ul className="hidden md:flex space-x-8 text-gray-300">
+        <ul className="hidden md:flex space-x-8 text-gray-300 ">
           {menuItems.map((item) => (
             <li
               key={item.id}
-              className={`cursor-pointer hover:text-pink-500 ${
+              className={`hover:cursor-pointer hover:text-pink-500 cursor-pointer ${
                 activeSection === item.id ? "text-pink-500" : ""
               }`}
             >

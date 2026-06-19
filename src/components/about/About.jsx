@@ -8,7 +8,7 @@ const About = () => {
     >
       <div className="flex flex-col md:flex-row justify-between items-center gap-12 md:gap-24 lg:gap-16">
         {/* Left Side */}
-        <div className="md:w-1/2 text-center md:text-left">
+        <div className="md:w-1/2 text-center md:text-left animate-slideInLeft">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-pink-500 leading-tight">
             Hi, I am
           </h1>
@@ -18,7 +18,7 @@ const About = () => {
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-3 text-pink-500 leading-tight">
             <span className="text-white"> I'm a </span>
             <ReactTyped
-              strings={["Frontend Developer", "Web Developer", "Casual Gamer"]}
+              strings={["Data Analyst", "Business Intelligence Analyst", "Data Scientist"]}
               typeSpeed={100}
               backSpeed={50}
               startDelay={500}
@@ -28,10 +28,7 @@ const About = () => {
             />
           </h3>
           <p className="text-gray-300 text-base sm:text-lg md:text-gray-400 mb-10 mt-8 leading-relaxed">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus
-            amet voluptatem error quae quisquam molestiae. Fugit quae
-            praesentium, optio dolor numquam maxime minus assumenda in, eius
-            placeat impedit libero vero.
+            I transform data into actionable insights by leveraging Python, SQL, and visualization tools. With expertise in exploratory data analysis, statistical modeling, and business intelligence, I help organizations make data-driven decisions. Passionate about uncovering patterns, building predictive models, and creating compelling visualizations that tell meaningful stories.
           </p>
 
           {/* CV button */}
@@ -39,10 +36,10 @@ const About = () => {
             href="https://drive.google.com/file/d/1ZLu1StIYKmFCFXgWzOvmCImQSDHyrooH/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block text-white py-3 px-8 rounded-full font-bold transition duration-300 hover:scale-105 mb-12 md:mb-0"
+            className="inline-block text-white py-3 px-8 rounded-full font-bold transition-smooth hover:scale-105 hover:shadow-lg mb-12 md:mb-0"
             style={{
-              background: "linear-gradient(90deg, pink, #a855f7)",
-              boxShadow: "0 4px 15px rgba(236, 72, 153, 0.7)",
+              background: "linear-gradient(90deg, #ec4899, #a855f7)",
+              boxShadow: "0 4px 20px rgba(236, 72, 153, 0.6)",
             }}
           >
             Download CV
@@ -50,10 +47,10 @@ const About = () => {
         </div>
 
         {/* right side*/}
-        <div className="md:w-1/2 w-full max-w-[550px] shadow-pink-400 shadow-sm">
-          <div className="bg-[#1f1e33] rounded-lg p-4 shadow-2xl border border-gray-700 w-full animate-pulse-slow">
+        <div className="md:w-1/2 w-full max-w-[550px] animate-slideInRight">
+          <div className="bg-gradient-card rounded-xl p-4 shadow-2xl border border-pink-600/20 w-full animate-pulse-slow hover-glow">
             {/* header */}
-            <div className="flex items-center mb-3 pb-2 border-b border-gray-700">
+            <div className="flex items-center mb-3 pb-2 border-b border-pink-600/20">
               <div className="flex space-x-2">
                 <div className="w-3 h-3 bg-red-500 rounded-full"></div>
                 <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
@@ -66,55 +63,53 @@ const About = () => {
             <div className="text-sm font-mono leading-tight">
               <div className="text-blue-400">
                 const <span className="text-white">aboutMe</span>:{" "}
-                <span className="text-pink-400">Profile</span> = {`{`}
+                <span className="text-pink-400">DataAnalyst</span> = {`{`}
               </div>
               <div className="ml-4 text-yellow-300">
-                codename:{" "}
+                name:{" "}
                 <span className="text-green-400">"Shivam Mishra"</span>,
-              </div>
-              <div className="ml-4 text-yellow-300">
-                origin:{" "}
-                <span className="text-green-400">
-                  "Somewhere between learning stage of life & success"
-                </span>
-                ,
               </div>
               <div className="ml-4 text-yellow-300">
                 role:{" "}
                 <span className="text-green-400">
-                  "Self Taught Web devloper"
+                  "Data Analyst | BI Specialist"
                 </span>
                 ,
               </div>
-              <div className="ml-4 text-yellow-300">stack: {`{`}</div>
+              <div className="ml-4 text-yellow-300">expertise: {`{`}</div>
               <div className="ml-8 text-yellow-300">
                 languages: [
                 <span className="text-green-400">
-                  "JavaScript", "NodeJs", "SQL"
+                  "Python", "SQL", "R"
                 </span>
                 ],
               </div>
               <div className="ml-8 text-yellow-300">
-                frameworks: [
-                <span className="text-green-400">"React", "TailwindCSS",</span>
+                visualization: [
+                <span className="text-green-400">"Tableau", "Power BI", "Matplotlib"</span>
+                ],
+              </div>
+              <div className="ml-8 text-yellow-300">
+                libraries: [
+                <span className="text-green-400">"Pandas", "NumPy", "Scikit-learn"</span>
                 ],
               </div>
               <div className="ml-4 text-yellow-300">{`},`}</div>
-              <div className="ml-4 text-yellow-300">traits: [</div>
-              <div className="ml-8 text-green-400">"pixel-perfectionist",</div>
-              <div className="ml-8 text-green-400">"dark mode advocate",</div>
+              <div className="ml-4 text-yellow-300">strengths: [</div>
+              <div className="ml-8 text-green-400">"data storytelling",</div>
+              <div className="ml-8 text-green-400">"pattern recognition",</div>
               <div className="ml-8 text-green-400">
-                "terminal aesthetic enthusiast",
+                "statistical analysis",
               </div>
               <div className="ml-4 text-yellow-400">],</div>
 
-              <div className="ml-4 text-yellow-300">missionStatement:</div>
+              <div className="ml-4 text-yellow-300">passion:</div>
               <div className="ml-8 text-green-400">
-                "Turning ideas into interfaces and bugs into features",
+                "Converting complex data into actionable business insights",
               </div>
               <div className="ml-4 text-yellow-300">
-                availability:{" "}
-                <span className="text-green-400">"Available for hire"</span>,
+                status:{" "}
+                <span className="text-green-400">"Open for opportunities"</span>,
               </div>
               <div className="text-blue-500">{`}`}</div>
             </div>
